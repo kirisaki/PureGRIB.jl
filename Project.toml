@@ -1,0 +1,13 @@
+name = "PureGRIB"
+uuid = "3fe4f851-3744-4618-9411-35db50007c12"
+authors = ["Akihito Kirisaki <kirisaki@klara.works>"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
